@@ -13,6 +13,16 @@
 		224765AF1FBF15C50066D395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224765AD1FBF15C50066D395 /* LaunchScreen.storyboard */; };
 		43EEE3EA1FBF227D0021F239 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EEE3E91FBF227D0021F239 /* DetailViewController.swift */; };
 		43EEE3EC1FBF26A60021F239 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EEE3EB1FBF26A60021F239 /* CustomTableViewCell.swift */; };
+		43EEE3EE1FBF4F2E0021F239 /* Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3ED1FBF4F2E0021F239 /* Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3 */; };
+		43EEE3F01FBF4F350021F239 /* Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3EF1FBF4F350021F239 /* Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3 */; };
+		43EEE3F21FBF4F3C0021F239 /* MuaThuDiQua-Rhymastic-4597152_hq.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3F11FBF4F3C0021F239 /* MuaThuDiQua-Rhymastic-4597152_hq.mp3 */; };
+		43EEE3F41FBF4F420021F239 /* Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3F31FBF4F420021F239 /* Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3 */; };
+		43EEE3F61FBF4F480021F239 /* Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3F51FBF4F480021F239 /* Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3 */; };
+		43EEE3F81FBF4F5B0021F239 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3F71FBF4F5B0021F239 /* maxresdefault.jpg */; };
+		43EEE3FA1FBF4F650021F239 /* Nhớ mùa thu Hà Nội.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3F91FBF4F650021F239 /* Nhớ mùa thu Hà Nội.jpeg */; };
+		43EEE3FC1FBF4F6F0021F239 /* artworks-000193350014-7baww0-t500x500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3FB1FBF4F6F0021F239 /* artworks-000193350014-7baww0-t500x500.jpg */; };
+		43EEE3FE1FBF4F740021F239 /* 1499940291-149991371219856-hinh-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3FD1FBF4F740021F239 /* 1499940291-149991371219856-hinh-1.jpg */; };
+		43EEE4001FBF4F7B0021F239 /* autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43EEE3FF1FBF4F7B0021F239 /* autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg */; };
 		EF186FAC1FBF222D0074F18D /* AutumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF186FAB1FBF222D0074F18D /* AutumnViewController.swift */; };
 		EF186FAE1FBF22CC0074F18D /* Autumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF186FAD1FBF22CC0074F18D /* Autumn.swift */; };
 		EF186FB21FBF29AA0074F18D /* AutumnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF186FB11FBF29AA0074F18D /* AutumnTableViewCell.swift */; };
@@ -27,6 +37,16 @@
 		224765B01FBF15C50066D395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43EEE3E91FBF227D0021F239 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		43EEE3EB1FBF26A60021F239 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		43EEE3ED1FBF4F2E0021F239 /* Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3"; sourceTree = "<group>"; };
+		43EEE3EF1FBF4F350021F239 /* Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3"; sourceTree = "<group>"; };
+		43EEE3F11FBF4F3C0021F239 /* MuaThuDiQua-Rhymastic-4597152_hq.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MuaThuDiQua-Rhymastic-4597152_hq.mp3"; sourceTree = "<group>"; };
+		43EEE3F31FBF4F420021F239 /* Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3"; sourceTree = "<group>"; };
+		43EEE3F51FBF4F480021F239 /* Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3"; sourceTree = "<group>"; };
+		43EEE3F71FBF4F5B0021F239 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		43EEE3F91FBF4F650021F239 /* Nhớ mùa thu Hà Nội.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nhớ mùa thu Hà Nội.jpeg"; sourceTree = "<group>"; };
+		43EEE3FB1FBF4F6F0021F239 /* artworks-000193350014-7baww0-t500x500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "artworks-000193350014-7baww0-t500x500.jpg"; sourceTree = "<group>"; };
+		43EEE3FD1FBF4F740021F239 /* 1499940291-149991371219856-hinh-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1499940291-149991371219856-hinh-1.jpg"; sourceTree = "<group>"; };
+		43EEE3FF1FBF4F7B0021F239 /* autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg"; sourceTree = "<group>"; };
 		EF186FAB1FBF222D0074F18D /* AutumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutumnViewController.swift; sourceTree = "<group>"; };
 		EF186FAD1FBF22CC0074F18D /* Autumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autumn.swift; sourceTree = "<group>"; };
 		EF186FB11FBF29AA0074F18D /* AutumnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutumnTableViewCell.swift; sourceTree = "<group>"; };
@@ -62,6 +82,16 @@
 		224765A31FBF15C50066D395 /* AutumnWorkspace */ = {
 			isa = PBXGroup;
 			children = (
+				43EEE3ED1FBF4F2E0021F239 /* Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3 */,
+				43EEE3EF1FBF4F350021F239 /* Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3 */,
+				43EEE3F11FBF4F3C0021F239 /* MuaThuDiQua-Rhymastic-4597152_hq.mp3 */,
+				43EEE3F31FBF4F420021F239 /* Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3 */,
+				43EEE3FD1FBF4F740021F239 /* 1499940291-149991371219856-hinh-1.jpg */,
+				43EEE3FF1FBF4F7B0021F239 /* autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg */,
+				43EEE3F51FBF4F480021F239 /* Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3 */,
+				43EEE3FB1FBF4F6F0021F239 /* artworks-000193350014-7baww0-t500x500.jpg */,
+				43EEE3F91FBF4F650021F239 /* Nhớ mùa thu Hà Nội.jpeg */,
+				43EEE3F71FBF4F5B0021F239 /* maxresdefault.jpg */,
 				224765B01FBF15C50066D395 /* Info.plist */,
 				224765AB1FBF15C50066D395 /* Assets.xcassets */,
 				224765A41FBF15C50066D395 /* AppDelegate.swift */,
@@ -117,6 +147,11 @@
 					224765A01FBF15C50066D395 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -143,8 +178,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EEE3FA1FBF4F650021F239 /* Nhớ mùa thu Hà Nội.jpeg in Resources */,
+				43EEE3FC1FBF4F6F0021F239 /* artworks-000193350014-7baww0-t500x500.jpg in Resources */,
+				43EEE3EE1FBF4F2E0021F239 /* Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists.mp3 in Resources */,
+				43EEE3F21FBF4F3C0021F239 /* MuaThuDiQua-Rhymastic-4597152_hq.mp3 in Resources */,
+				43EEE4001FBF4F7B0021F239 /* autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg in Resources */,
+				43EEE3F01FBF4F350021F239 /* Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3].mp3 in Resources */,
 				224765AF1FBF15C50066D395 /* LaunchScreen.storyboard in Resources */,
+				43EEE3F61FBF4F480021F239 /* Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong.mp3 in Resources */,
+				43EEE3F41FBF4F420021F239 /* Nho-Mua-Thu-Ha-Noi-Thu-Phuong.mp3 in Resources */,
 				224765AC1FBF15C50066D395 /* Assets.xcassets in Resources */,
+				43EEE3F81FBF4F5B0021F239 /* maxresdefault.jpg in Resources */,
+				43EEE3FE1FBF4F740021F239 /* 1499940291-149991371219856-hinh-1.jpg in Resources */,
 				224765AA1FBF15C50066D395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
