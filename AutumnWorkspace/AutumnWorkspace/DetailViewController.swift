@@ -17,6 +17,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var circleView: UIView!
     @IBOutlet weak var tableView: UITableView!
     
+    var autumn: Autumn?
     private let musicName = ["A","B","C"]
     private var timeDefault = 30 * 60 {
         didSet {
@@ -39,6 +40,9 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         countdown()
         tableView.dataSource = self
+        if autumn != nil {
+            backgroundView.image = autumn?.image
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -66,7 +70,7 @@ class DetailViewController: UIViewController {
     
     private func setupUI() {
         circleView.layer.cornerRadius = circleView.frame.width / 2
-        circleView.layer.borderWidth = 1
+        circleView.layer.borderWidth = 5
         circleView.layer.borderColor = UIColor.white.cgColor
         takeCurrentTime()
         slideMenu.layer.borderWidth = 1
