@@ -47,7 +47,18 @@ class DetailViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         setupUI()
+        showAnimate()
     }
+    
+    func showAnimate() {
+        self.view.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+        self.view.alpha = 0.0
+        UIView.animate(withDuration: 0.4, animations: {
+            self.view.alpha = 1.0
+            self.view.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
+        })
+    }
+    
     
     override var prefersStatusBarHidden: Bool {
         return true
