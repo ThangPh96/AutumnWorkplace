@@ -202,6 +202,7 @@ extension DetailViewController: UITableViewDelegate {
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
+            player.pause()
             player.numberOfLoops = -1
             player.play()
             
