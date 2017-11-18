@@ -11,21 +11,24 @@ import UIKit
 class AutumnViewController: UIViewController {
     
     @IBOutlet weak var autumnTableView: UITableView!
-
+    
     
     let reuseIdentifier: String = "cell"
     let detailVCIdentifier: String = "detailVc"
     let titleNavigator: String = "Autumn"
     var autumns: [Autumn] = []
     
-    override func viewDidLoad() {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         super.viewDidLoad()
         self.navigationItem.title = titleNavigator
         self.autumnTableView.dataSource = self
         self.autumnTableView.delegate = self
-//        self.autumnTableView.separatorStyle = .singleLine
-//        self.autumnTableView.separatorColor = UIColor.white
         loadDataFromDocumentDirectory()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
     }
     
     func loadDataFromDocumentDirectory() {
@@ -50,6 +53,7 @@ class AutumnViewController: UIViewController {
             print(error)
         }
     }
+    
 }
 
 extension AutumnViewController: UITableViewDataSource {
@@ -66,14 +70,16 @@ extension AutumnViewController: UITableViewDataSource {
         cell.separatorInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         return cell
     }
+    
 }
+
 
 extension AutumnViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let detailVC = storyboard?.instantiateViewController(withIdentifier: detailVCIdentifier) as? DetailViewController {
-            navigationController?.pushViewController(detailVC, animated: true)
-            detailVC.autumn = autumns[indexPath.row]
+            self.navigationController?.pushViewController(detailVC, animated: false)
+            detailVC.autumn = self.autumns[indexPath.row]
         } else {
             return
         }
@@ -83,3 +89,5 @@ extension AutumnViewController: UITableViewDelegate {
         return (self.view.frame.size.height - 64) / 3
     }
 }
+
+
