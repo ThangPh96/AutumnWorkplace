@@ -19,9 +19,12 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var circleView: UIView!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var playTimeButton: UIButton!
+    @IBOutlet weak var CustomBackgroundView: UIView!
     
     var player = AVAudioPlayer()
     var autumn: Autumn?
+    var slidingMenuIsShowing = false
+    
     private let imageName: [UIImage] = [#imageLiteral(resourceName: "1499940291-149991371219856-hinh-1.jpg"), #imageLiteral(resourceName: "autumn-in-my-heart-ost-trai-tim-mua-thu-624.jpg"), #imageLiteral(resourceName: "artworks-000193350014-7baww0-t500x500.jpg"),#imageLiteral(resourceName: "Nhớ mùa thu Hà Nội.jpeg"),#imageLiteral(resourceName: "maxresdefault.jpg")]
     private let musicName = ["Despacito - Luis Fonsi_ Daddy Yankee [128kbps_MP3]","Autumn-In-My-Heart-Main-Title-Flute-Ver-Various-Artists","MuaThuDiQua-Rhymastic-4597152_hq","Nho-Mua-Thu-Ha-Noi-Thu-Phuong","Thu-Cuoi-Yanbi-Mr-T-Hang-BingBoong"]
     private var timeDefault = 30 * 60 {
@@ -36,7 +39,7 @@ class DetailViewController: UIViewController {
     private var timer: Timer?
     
     var slidemenuWidth: CGFloat {
-        return view.frame.width * 0.75
+        return view.frame.width * 0.6
     }
     
     var slidemenuHeight: CGFloat {
@@ -52,6 +55,7 @@ class DetailViewController: UIViewController {
         }
         setupBackgroundPlay()
         setupNowPlayingInfoCenter()
+        CustomBackgroundView.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -69,6 +73,7 @@ class DetailViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         UIView.animate(withDuration: 0.5) {
             self.slideMenu.frame.origin.x = 500
+            self.CustomBackgroundView.isHidden = true
         }
     }
 
@@ -78,6 +83,7 @@ class DetailViewController: UIViewController {
     @IBAction func changeMusic(_ sender: Any) {
         UIView.animate(withDuration: 0.5) {
             self.slideMenu.frame.origin.x = self.view.frame.width - self.slidemenuWidth
+            self.CustomBackgroundView.isHidden = false
         }
     }
     
@@ -93,6 +99,7 @@ class DetailViewController: UIViewController {
             countdown()
         }
     }
+    
     private func setupUI() {
         circleView.layer.cornerRadius = circleView.frame.width / 2
         circleView.layer.borderWidth = 5
@@ -184,12 +191,15 @@ extension DetailViewController: UITableViewDelegate {
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
+            player.numberOfLoops = -1
             player.play()
+            
         } catch let error as NSError {
             print(error.description)
         }
         UIView.animate(withDuration: 0.5) {
             self.slideMenu.frame.origin.x = 500
+            self.CustomBackgroundView.isHidden = true
         }
     }
 }
